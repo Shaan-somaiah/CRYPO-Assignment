@@ -1,9 +1,5 @@
 #include <bits/stdc++.h>
-
-
 using namespace std;
-
-
 int prime_checker(int p) {
     // Checks if the number entered is a prime number or not
     if (p < 1) {
@@ -21,7 +17,6 @@ int prime_checker(int p) {
     }
     return 1;
 }
-
 int primitive_check(int g, int p, vector<int>& L) {
     // Checks if the entered number is a primitive root or not
     for (int i = 1; i < p; i++) {
@@ -36,8 +31,6 @@ int primitive_check(int g, int p, vector<int>& L) {
     }
     return 1;
 }
-
-
 
 int main() {
     vector<int> l;
